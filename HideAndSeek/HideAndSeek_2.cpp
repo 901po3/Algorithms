@@ -4,7 +4,7 @@ using namespace std;
 //error that 'HideAndSeek_1.cpp' had is fixed, but there is memory problem when gap between N and K becomes extremely large.
 
 #define ARR_MAX			100000
-#define QUEUE_MAX			100000
+#define QUEUE_MAX		100000
 
 struct Node
 {
