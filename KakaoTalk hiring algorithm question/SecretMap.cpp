@@ -45,18 +45,6 @@ void makeMap(int **dpa, int n)
 
 void displayMap(int **dpa, int n)
 {
-	/*cout << endl;
-	int count = 0;
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n; j++)
-		{
-			count++;
-			if (dpa[i][j] == WALL)
-				cout << count << ' ';
-		}
-	}*/
-
 	cout << endl;
 	for (int i = 0; i < n; i++)
 	{
