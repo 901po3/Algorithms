@@ -2,10 +2,10 @@
 #include<ctime>
 using namespace std;
 
-#define MAX_CHARACTER	2
+#define MAX_CHARACTER		2
 #define BLANK			' '
-#define MAX				70
-#define MIN				2
+#define MAX			70
+#define MIN			2
 
 const char characterList[MAX_CHARACTER] = { 'R', 'M'};
 
