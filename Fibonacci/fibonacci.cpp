@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-//1¹ø ¹®Á¦
-//fibonacci(N)À» È£ÃâÇßÀ» ¶§, 0°ú 1ÀÌ °¢°¢ ¸î ¹ø Ãâ·ÂµÇ´ÂÁö ±¸ÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ½Ã¿À.
-// °¢ Å×½ºÆ® ÄÉÀÌ½º¸¶´Ù 0ÀÌ Ãâ·ÂµÇ´Â È½¼ö¿Í 1ÀÌ Ãâ·ÂµÇ´Â È½¼ö¸¦ °ø¹éÀ¸·Î ±¸ºĞÇØ¼­ Ãâ·ÂÇÑ´Ù.
+//1ë²ˆ ë¬¸ì œ
+//fibonacci(N)ì„ í˜¸ì¶œí–ˆì„ ë•Œ, 0ê³¼ 1ì´ ê°ê° ëª‡ ë²ˆ ì¶œë ¥ë˜ëŠ”ì§€ êµ¬í•˜ëŠ” í”„ë¡œê·¸ë¨ì„ ì‘ì„±í•˜ì‹œì˜¤.
+// ê° í…ŒìŠ¤íŠ¸ ì¼€ì´ìŠ¤ë§ˆë‹¤ 0ì´ ì¶œë ¥ë˜ëŠ” íšŸìˆ˜ì™€ 1ì´ ì¶œë ¥ë˜ëŠ” íšŸìˆ˜ë¥¼ ê³µë°±ìœ¼ë¡œ êµ¬ë¶„í•´ì„œ ì¶œë ¥í•œë‹¤.
 
 
 //Make the program calculates each 0 and 1's calling times when you are calling fibonacci(N)
@@ -28,7 +28,7 @@ int main()
 	int *countZero, *countOne;
 	scanf("%d", &len);
 	countZero	= (int*)malloc(sizeof(int) * len);
-	countOne		= (int*)malloc(sizeof(int) * len);
+	countOne	= (int*)malloc(sizeof(int) * len);
 	
 	memset(countZero, 0, sizeof(int) * len);
 	memset(countOne, 0, sizeof(int) * len);
